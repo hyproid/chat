@@ -1,0 +1,37 @@
+#chatbot {
+    background: #f4f4f4;
+    border: 1px solid #ee6e73;
+    width: 350px;
+    height: 450px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 3px 3px 9px #999;
+}
+
+#chatbot .header {
+    color: #fff;
+    background: #ee6e73;
+    font-size: 28px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #666;
+}
+
+#chatbot > div {
+    height: 100%;
+}
+
+#chatbot input {
+    color: #999;
+}
+
+#chatbot .content {
+    overflow-y: scroll;
+    max-height: 85%;
+    min-height: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 20px;
+}
